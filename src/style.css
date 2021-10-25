@@ -118,3 +118,31 @@ h1.about-heading {
 .launch-button:hover {
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 72px !important;
+  }
+  h2 {
+    font-size: 36px !important;
+    margin-top: 100px !important;
+  }
+
+  h3 {
+    font-size: 23px !important;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center !important;
+  }
+  .text {
+    text-align: center !important;
+  }
+
+  .launch-button {
+    display: block;
+    text-align: center;
+    margin: 0 20px !important;
+  }
+}
